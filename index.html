@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <!-- <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css"> -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+    <h1>Vacation Suggestor</h1>
+    <p>by: Jacob Hefley</p>
+  </div>
+    <div class="container clear-fix">
+
+      <form class="form">
+        <!-- <first question"> -->
+        <div class="form-group">
+          <h3>Which of the following best describes you on a Friday night?</h3>
+          <div class="radio">
+            <label><input type="radio" name="q1" value="party"> Bar-hopping, clubbing, partying and getting turnt.</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="q1" value="hipster"> Going to a museum, site seeing, exploring, or visiting old nostalgic areas.</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="q1" value="home"> Staying at home relaxing, watching TV, sitting on the computer...</label>
+          </div>
+        </div>
+        <!-- <second question"> -->
+        <div class="form-group">
+          <h3>What is your favorite climate?</h3>
+          <div class="radio">
+            <label><input type="radio" name="q2" value="party"> Hot, sunny, beach weather</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="q2" value="home"> Temparate with 4 seasons</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="q2" value="hipster"> It's not the weather that makes the climate, it's the people who live there</label>
+          </div>
+        </div>
+      <!-- <third question"> -->
+        <div class="form-group">
+          <h3>What about food?</h3>
+          <div class="radio">
+            <label><input type="radio" name="q3" value="hipster"> I eat organic</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="q3" value="home"> I try to eat organic, and shop at WholeFoods</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="q3" value="party"> Mostly fast food to cure a hangover</label>
+          </div>
+        </div>
+      <!-- <fourth question"> -->
+        <div class="form-group">
+          <h3>Where have you already traveled?</h3>
+          <div class="radio">
+            <label><input type="radio" name="q4" value="home"> I haven't really had a chance to travel</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="q4" value="party"> I've been to Mexico and that was crazy</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="q4" value="hipster"> I want to travel all around the world</label>
+          </div>
+        </div>
+        <!-- <fifth question"> -->
+        <div class="form-group">
+          <h3>Lastly, where wouldn't you want to visit?</h3>
+          <div class="radio">
+            <label><input type="radio" name="q5" value="party"> Anywhere boring</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="q5" value="home"> Some parts of the world scare me so not those</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="q5" value="hipster"> Places where women are not respected and dont even have rights as human beings</label>
+          </div>
+        </div>
+      </form>
+      <button id="evaluate" class="btn btn-lg btn-success pull-right">Evaluate</button>
+      </div>
+</html>
